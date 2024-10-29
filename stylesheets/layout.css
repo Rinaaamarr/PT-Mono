@@ -2,7 +2,190 @@
   box-sizing: border-box;
 }
 body {
-  width: 1440px;
+  width: 100%;
   font-family: 'PT Mono', sans-serif;
   font-weight: 400;
+  background-color: #faf4ea;
+}
+body {
+  background-image: url(../images/lala.png);
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 10109px;
+}
+.section-1 {
+  width: 1440px;
+  height: 881px;
+  display: flex;
+  position: relative;
+}
+.section-1 div {
+  width: 720px;
+  height: 881px;
+}
+.kletka {
+  background-image: url('../images/background-kletka.png');
+}
+.paperboard {
+  background-image: url('../images/paperboard-craft.png');
+}
+.kletka img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 151px;
+  width: 636px;
+  height: 672px;
+  z-index: 0;
+}
+.paperboard img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 51px;
+  margin-left: 49px;
+  z-index: 0;
+}
+div.PTmono {
+  position: absolute;
+  text-align: center;
+  width: 1440px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 3px #543e32;
+}
+.section-1 h1 {
+  font-size: 120px;
+  text-align: center;
+  margin-top: 49px;
+  margin-left: 507px;
+  position: absolute;
+}
+.section-1 p {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 185px;
+  margin-left: 552px;
+  position: absolute;
+}
+.bottom {
+  position: absolute;
+  z-index: 1;
+  margin-top: 800px;
+  margin-left: -1px;
+}
+.paper {
+  z-index: 0;
+  margin-top: 150px;
+  margin-left: -715px;
+}
+.paper img {
+  margin-top: -7px;
+  margin-left: -569px;
+  opacity: 0.6;
+}
+.corp {
+  position: absolute;
+  text-align: center;
+  width: 1440px;
+  font-size: 60px;
+  -webkit-text-fill-color: #543e32;
+  margin-top: 185px;
+  margin-left: 390px;
+}
+.section-2 {
+  width: 1440px;
+  height: 780px;
+}
+.cranes img {
+  z-index: 1;
+  margin-top: -436px;
+  margin-left: -525px;
+  margin-right: 100px;
+  width: 1121px;
+  height: 943px;
+  position: absolute;
+}
+.cranes2 img {
+  z-index: 1;
+  margin-top: -313px;
+  margin-left: 238px;
+  margin-right: 100px;
+  width: 1121px;
+  height: 943px;
+  position: absolute;
+}
+.cranes3 img {
+  z-index: 1;
+  margin-top: -86px;
+  margin-left: 969px;
+  margin-right: 100px;
+  width: 1121px;
+  height: 943px;
+  position: absolute;
+}
+.history {
+  position: absolute;
+  font-size: 90px;
+  -webkit-text-fill-color: #f3ebd1;
+  -webkit-text-stroke: 1px #6c5b4f;
+  margin-left: 203px;
+  margin-top: 239px;
+}
+.rope img {
+  z-index: 1;
+  margin-top: 66px;
+  margin-left: 139px;
+}
+.mini-rope {
+  position: absolute;
+  top: 179%;
+  left: 29%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.hist-4 img {
+  position: absolute;
+  margin-top: -298px;
+  margin-left: 636px;
+  width: 762px;
+  height: 722px;
+  z-index: -1;
+}
+.hist-4 p {
+  font-size: 33px;
+  -webkit-text-fill-color: black;
+  margin-top: -326px;
+  margin-left: 796px;
+  z-index: 1;
+}
+.hist-1 img {
+  width: 646px;
+  height: 600px;
+  position: absolute;
+  top: 194%;
+  left: 26%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.hist-1 p {
+  font-size: 33px;
+  -webkit-text-fill-color: black;
+  position: absolute;
+  top: 195%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+}
+.hist-2 img {
+  width: 682px;
+  height: 659px;
+  position: absolute;
+  top: 244%;
+  left: 69%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.hist-2 p {
+  font-size: 33px;
+  -webkit-text-fill-color: black;
+  position: absolute;
+  top: 237%;
+  left: 57%;
 }
