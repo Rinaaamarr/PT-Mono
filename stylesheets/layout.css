@@ -7,12 +7,6 @@ body {
   font-weight: 400;
   background-color: #faf4ea;
 }
-body {
-  background-image: url(../images/lala.png);
-  background-repeat: no-repeat;
-  width: 1440px;
-  height: 10109px;
-}
 .section-1 {
   width: 1440px;
   height: 881px;
@@ -48,6 +42,7 @@ div.PTmono {
   position: absolute;
   text-align: center;
   width: 1440px;
+  font-size: 120px;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 3px #543e32;
 }
@@ -130,62 +125,615 @@ div.PTmono {
   margin-top: 239px;
 }
 .rope img {
-  z-index: 1;
   margin-top: 66px;
   margin-left: 139px;
-}
-.mini-rope {
-  position: absolute;
-  top: 179%;
-  left: 29%;
-  transform: translate(-50%, -50%);
   z-index: 1;
 }
-.hist-4 img {
-  position: absolute;
-  margin-top: -298px;
-  margin-left: 636px;
-  width: 762px;
-  height: 722px;
+.bamboo img {
+  margin-top: -1694px;
+  margin-left: -1px;
   z-index: -1;
+  position: absolute;
 }
-.hist-4 p {
-  font-size: 33px;
-  -webkit-text-fill-color: black;
-  margin-top: -326px;
-  margin-left: 796px;
+.fem-hand img {
+  margin-top: -595px;
+  margin-left: 1151px;
+  position: absolute;
   z-index: 1;
 }
-.hist-1 img {
+.hist-1 {
+  background-image: url(../images/paperhist.png);
+  margin-top: -1937px;
+  margin-left: 68px;
   width: 646px;
   height: 600px;
   position: absolute;
-  top: 194%;
-  left: 26%;
-  transform: translate(-50%, -50%);
   z-index: -1;
 }
 .hist-1 p {
   font-size: 33px;
   -webkit-text-fill-color: black;
-  position: absolute;
-  top: 195%;
-  left: 27%;
-  transform: translate(-50%, -50%);
+  padding-left: 114px;
+  padding-top: 247px;
 }
-.hist-2 img {
+.hist-2 {
+  background-image: url(../images/paperhist2.png);
   width: 682px;
   height: 659px;
-  position: absolute;
-  top: 244%;
-  left: 69%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
+  margin-top: -1561px;
+  margin-left: 675px;
 }
 .hist-2 p {
   font-size: 33px;
   -webkit-text-fill-color: black;
+  padding-top: 270px;
+  padding-left: 160px;
+}
+.hist-3 {
+  background-image: url(../images/paperhist3.png);
+  width: 738px;
+  height: 670px;
+  margin-top: -205px;
+  margin-left: 49px;
+}
+.hist-3 p {
+  font-size: 33px;
+  -webkit-text-fill-color: black;
+  padding-top: 264px;
+  padding-left: 133px;
+}
+.hist-4 {
+  background-image: url(../images/paperhist4.png);
+  width: 761px;
+  height: 759px;
+  margin-top: -210px;
+  margin-left: 634px;
+}
+.hist-4 p {
+  font-size: 33px;
+  -webkit-text-fill-color: black;
+  padding-top: 319px;
+  padding-left: 160px;
+}
+.section-3 {
+  width: 1440px;
+  height: 2000px;
+}
+.pour-ink {
+  margin-top: -564px;
+  margin-left: 0px;
+  z-index: 1;
   position: absolute;
-  top: 237%;
-  left: 57%;
+}
+.ink-spread {
+  margin-top: 1720px;
+  margin-left: 0px;
+  z-index: -1;
+}
+.outline {
+  position: absolute;
+  font-size: 70px;
+  -webkit-text-fill-color: #f3ebd1;
+  -webkit-text-stroke: 1px #6c5b4f;
+  margin-left: 303px;
+  margin-top: -1143px;
+}
+.section-4 {
+  width: 1440px;
+  height: 770px;
+}
+.back {
+  margin-top: -200px;
+  margin-left: 0px;
+  z-index: -1;
+}
+.features {
+  position: absolute;
+  font-size: 90px;
+  -webkit-text-fill-color: #f3ebd1;
+  -webkit-text-stroke: 1px #6c5b4f;
+  margin-left: 216px;
+  margin-top: -649px;
+}
+.letters {
+  margin-top: -399px;
+  margin-left: 27px;
+  z-index: 1;
+}
+.arrows {
+  margin-top: -179px;
+  margin-left: 153px;
+  z-index: 1;
+}
+.space p {
+  font-size: 16px;
+  -webkit-text-fill-color: #452a1c;
+  margin-top: -34px;
+  margin-left: 239px;
+  z-index: 1;
+}
+.space-info p {
+  font-size: 20px;
+  -webkit-text-fill-color: #311e14;
+  margin-top: 27px;
+  margin-left: 152px;
+  z-index: 1;
+}
+.serifs {
+  margin-top: -241px;
+  margin-left: 356px;
+  z-index: 1;
+}
+.serifs-info {
+  font-size: 20px;
+  -webkit-text-fill-color: #311e14;
+  margin-top: -67px;
+  margin-left: 366px;
+}
+.net {
+  margin-top: 24px;
+  margin-left: 648px;
+  z-index: 0;
+}
+.word p {
+  font-size: 20px;
+  -webkit-text-fill-color: #311e14;
+  margin-top: -195px;
+  margin-left: 681px;
+  z-index: 1;
+}
+.net-info p {
+  font-size: 20px;
+  -webkit-text-fill-color: #311e14;
+  margin-top: 192px;
+  margin-left: 628px;
+  z-index: 1;
+}
+.dots img {
+  position: absolute;
+  margin-top: -186px;
+  margin-left: 957px;
+  z-index: 1;
+}
+.place p {
+  font-size: 20px;
+  -webkit-text-fill-color: #311e14;
+  margin-top: -253px;
+  margin-left: 943px;
+}
+.place2 p {
+  font-size: 20px;
+  -webkit-text-fill-color: #311e14;
+  margin-top: 191px;
+  margin-left: 915px;
+}
+.frames {
+  margin-top: -229px;
+  margin-left: 1253px;
+}
+.frames-info p {
+  font-size: 20px;
+  -webkit-text-fill-color: #311e14;
+  margin-top: -231px;
+  margin-left: 1291px;
+}
+.frames-info2 p {
+  font-size: 20px;
+  -webkit-text-fill-color: #311e14;
+  margin-top: 230px;
+  margin-left: 1273px;
+}
+.section-5 {
+  width: 1440px;
+  height: 970px;
+}
+.suit {
+  position: absolute;
+  font-size: 90px;
+  -webkit-text-fill-color: #f3ebd1;
+  -webkit-text-stroke: 1px #6c5b4f;
+  margin-left: 68px;
+  margin-top: -65px;
+}
+.search img {
+  margin-top: -60px;
+  margin-left: 740px;
+}
+.background-song {
+  margin-top: 60px;
+  margin-left: 0px;
+  z-index: -1;
+}
+.boxes {
+  margin-top: -658px;
+  margin-left: 68px;
+  z-index: 1;
+}
+.heading p {
+  font-size: 70px;
+  -webkit-text-fill-color: #8d7160;
+  -webkit-text-stroke: 3px #8d7160;
+  margin-top: -481px;
+  margin-left: 173px;
+}
+.and1 p {
+  font-size: 100px;
+  -webkit-text-fill-color: #674e40;
+  margin-top: 116px;
+  margin-left: 659px;
+  z-index: 1;
+}
+.and2 p {
+  font-size: 100px;
+  -webkit-text-fill-color: #957c6e;
+  margin-top: -99px;
+  margin-left: 656px;
+  z-index: 0;
+}
+.main-text p {
+  font-size: 35px;
+  -webkit-text-fill-color: #8d7160;
+  margin-top: 135px;
+  margin-left: 858px;
+}
+.section-6 {
+  width: 1440px;
+  height: 1620px;
+}
+.glyphs {
+  position: absolute;
+  font-size: 90px;
+  -webkit-text-fill-color: #f3ebd1;
+  -webkit-text-stroke: 1px #6c5b4f;
+  margin-top: -7px;
+  margin-left: 590px;
+}
+.glyph-frame {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 0px;
+  z-index: -1;
+}
+.in-between img {
+  margin-top: 679px;
+  margin-left: 277px;
+}
+.alphabet p {
+  font-size: 70px;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 3px black;
+  margin-top: -483px;
+  margin-left: 589px;
+  position: absolute;
+}
+.alphabet-wide p {
+  font-size: 60px;
+  -webkit-text-fill-color: black;
+  margin-top: -358px;
+  margin-left: 380px;
+}
+.symbols p {
+  font-size: 70px;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 3px black;
+  margin-top: 234px;
+  margin-left: 450px;
+}
+.symbols-wide p {
+  font-size: 60px;
+  -webkit-text-fill-color: black;
+  margin-top: 56px;
+  margin-left: 380px;
+}
+.section-7 {
+  width: 1440px;
+  height: 15px;
+}
+.lang-sup p {
+  font-size: 90px;
+  -webkit-text-fill-color: #f3ebd1;
+  -webkit-text-stroke: 1px #6c5b4f;
+  margin-top: 154px;
+  margin-left: 118px;
+  z-index: 1;
+}
+.side-column1 img {
+  margin-top: -108px;
+  margin-left: -1px;
+  z-index: -1;
+}
+.side-column2 img {
+  position: absolute;
+  margin-top: -819px;
+  margin-left: 1330px;
+  z-index: -1;
+}
+.upper-part img {
+  position: absolute;
+  width: 1950px;
+  height: 115px;
+  margin-top: -931px;
+  margin-left: -510px;
+  z-index: 1;
+}
+.divider img {
+  position: absolute;
+  margin-top: -843px;
+  margin-left: 388px;
+  z-index: -1;
+}
+.side-shelves img {
+  position: absolute;
+  margin-top: -546px;
+  margin-left: 108px;
+}
+.lib-back img {
+  margin-top: -822px;
+  margin-left: 110px;
+  z-index: -2;
+  position: absolute;
+}
+.center-shelves img {
+  position: absolute;
+  margin-top: -497px;
+  margin-left: 421px;
+}
+.book-1 img {
+  position: absolute;
+  margin-top: -657px;
+  margin-left: 155px;
+}
+.book-2 img {
+  position: absolute;
+  margin-top: -527px;
+  margin-left: 225px;
+}
+.globe img {
+  position: absolute;
+  margin-top: -504px;
+  margin-left: 114px;
+}
+.fullshelf-1 {
+  position: absolute;
+  margin-top: -386px;
+  margin-left: 120px;
+}
+.photo {
+  position: absolute;
+  margin-top: -203px;
+  margin-left: 127px;
+}
+.book-3 {
+  position: absolute;
+  margin-top: -201px;
+  margin-left: 317px;
+}
+.fullshelf-2 {
+  position: absolute;
+  margin-top: -693px;
+  margin-left: 1022px;
+}
+.vase {
+  position: absolute;
+  margin-top: -539px;
+  margin-left: 1073px;
+}
+.book-4 {
+  position: absolute;
+  margin-top: -468px;
+  margin-left: 1209px;
+}
+.book-5 {
+  position: absolute;
+  margin-top: -120px;
+  margin-left: 1035px;
+}
+.candles {
+  position: absolute;
+  margin-top: -192px;
+  margin-left: 1216px;
+}
+.statue-1 {
+  position: absolute;
+  margin-top: -662px;
+  margin-left: 858px;
+}
+.statue-2 {
+  position: absolute;
+  margin-top: -396px;
+  margin-left: 529px;
+}
+.statue-3 {
+  position: absolute;
+  margin-top: -216px;
+  margin-left: 856px;
+}
+.books-ru {
+  position: absolute;
+  margin-top: -609px;
+  margin-left: 465px;
+}
+.books-balkan {
+  position: absolute;
+  margin-top: -371px;
+  margin-left: 718px;
+}
+.books-eu {
+  position: absolute;
+  margin-top: -148px;
+  margin-left: 454px;
+}
+.rus {
+  font-size: 24px;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 1px black;
+  margin-top: -685px;
+  margin-left: 541px;
+}
+.balkan {
+  font-size: 24px;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 1px black;
+  margin-top: 190px;
+  margin-left: 491px;
+}
+.eu {
+  font-size: 24px;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 1px black;
+  margin-top: 210px;
+  margin-left: 606px;
+}
+.sakh {
+  font-size: 28px;
+  -webkit-text-fill-color: #3d2d24;
+  margin-top: -394px;
+  margin-left: 581px;
+}
+.lezgi {
+  font-size: 28px;
+  -webkit-text-fill-color: #2b1d15;
+  margin-top: 13px;
+  margin-left: 519px;
+}
+.hanty {
+  font-size: 28px;
+  -webkit-text-fill-color: #22160e;
+  margin-top: 8px;
+  margin-left: 533px;
+}
+.bosn p {
+  font-size: 28px;
+  -webkit-text-fill-color: #3d2b21;
+  margin-top: 134px;
+  margin-left: 759px;
+}
+.romania p {
+  font-size: 28px;
+  -webkit-text-fill-color: #3d2d24;
+  margin-top: 8px;
+  margin-left: 782px;
+}
+.serb p {
+  font-size: 28px;
+  -webkit-text-fill-color: #2f2118;
+  margin-top: 9px;
+  margin-left: 790px;
+}
+.eng {
+  font-size: 28px;
+  -webkit-text-fill-color: #3d2d24;
+  margin-top: 123px;
+  margin-left: 563px;
+}
+.french {
+  font-size: 28px;
+  -webkit-text-fill-color: #1c1009;
+  margin-top: 9px;
+  margin-left: 528px;
+}
+.ger {
+  font-size: 28px;
+  -webkit-text-fill-color: #6c5548;
+  margin-top: 9px;
+  margin-left: 570px;
+}
+.shelf {
+  position: absolute;
+  margin-top: -356px;
+  margin-left: 109px;
+}
+.middle-part img {
+  width: 1948px;
+  height: 115px;
+  margin-top: 12px;
+  margin-left: -508px;
+  z-index: 1;
+}
+.bottom-part img {
+  width: 1930px;
+  height: 154px;
+  margin-top: 450px;
+  margin-left: -490px;
+  z-index: 1;
+}
+.sidebasem-1 {
+  position: absolute;
+  width: 816px;
+  height: 44px;
+  margin-top: -629px;
+  margin-left: -3px;
+  z-index: -1;
+}
+.sidebasem-2 {
+  position: absolute;
+  width: 816px;
+  height: 44px;
+  margin-top: -638px;
+  margin-left: 1388px;
+  z-index: -1;
+}
+.drawer-1 {
+  position: absolute;
+  width: 880px;
+  height: 105px;
+  margin-top: -652px;
+  margin-left: 381px;
+  z-index: -1;
+}
+.drawer-2 {
+  position: absolute;
+  width: 880px;
+  height: 105px;
+  margin-top: -723px;
+  margin-left: 956px;
+  z-index: -1;
+}
+.backlib-1 {
+  position: absolute;
+  margin-top: -614px;
+  margin-left: 22px;
+  z-index: -2;
+}
+.backlib-2 {
+  position: absolute;
+  margin-top: -612px;
+  margin-left: 428px;
+  z-index: -2;
+}
+.backlib-3 {
+  position: absolute;
+  margin-top: -611px;
+  margin-left: 1025px;
+  z-index: -2;
+}
+.handle-1 {
+  position: absolute;
+  margin-top: -403px;
+  margin-left: 322px;
+  z-index: 1;
+}
+.drawer {
+  position: absolute;
+  margin-top: -384px;
+  margin-left: 445px;
+  z-index: 2;
+}
+.handle {
+  position: absolute;
+  margin-top: -334px;
+  margin-left: 553px;
+  z-index: 3;
+}
+.handle-2 {
+  position: absolute;
+  margin-top: -401px;
+  margin-left: 1072px;
+  z-index: 1;
+}
+.card-basem {
+  position: absolute;
+  margin-top: -634px;
+  margin-left: 449px;
+  z-index: 1;
 }
