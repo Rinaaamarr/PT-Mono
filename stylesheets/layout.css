@@ -552,16 +552,19 @@ div.PTmono {
   position: absolute;
   margin-top: -609px;
   margin-left: 465px;
+  z-index: -1;
 }
 .books-balkan {
   position: absolute;
   margin-top: -371px;
   margin-left: 718px;
+  z-index: -1;
 }
 .books-eu {
   position: absolute;
   margin-top: -148px;
   margin-left: 454px;
+  z-index: -1;
 }
 .rus {
   font-size: 24px;
@@ -569,6 +572,7 @@ div.PTmono {
   -webkit-text-stroke: 1px black;
   margin-top: -685px;
   margin-left: 541px;
+  z-index: 2;
 }
 .balkan {
   font-size: 24px;
